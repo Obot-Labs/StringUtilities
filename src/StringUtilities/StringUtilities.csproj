@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\tst\StringUtilities.Benchmark\StringUtilities.Benchmark.csproj" />
+    <ProjectReference Include="..\StringUtilities.Core.Html\StringUtilities.Core.Html.csproj" />
+    <ProjectReference Include="..\StringUtilities.Core\StringUtilities.Core.csproj" />
+  </ItemGroup>
+
+</Project>
